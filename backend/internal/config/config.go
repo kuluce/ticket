@@ -12,7 +12,7 @@ import (
 // 配置实例，单例
 var (
 	Config         *_config
-	configFileName string = filepath.Join(file.SelfDir(), "ticket.yaml")
+	ConfigFileName string = filepath.Join(file.SelfDir(), "ticket.yaml")
 )
 
 type _system struct {
@@ -38,9 +38,9 @@ type _config struct {
 // 读取配置文件
 func Read() error {
 
-	fmt.Printf("configFileName: %v\n", configFileName)
+	// fmt.Printf("configFileName: %v\n", ConfigFileName)
 
-	b, err := os.ReadFile(configFileName)
+	b, err := os.ReadFile(ConfigFileName)
 	if err != nil {
 		return err
 	}
@@ -83,7 +83,7 @@ func Save() error {
 		return err
 	}
 
-	err2 := os.WriteFile(configFileName, data, 0655)
+	err2 := os.WriteFile(ConfigFileName, data, 0655)
 	if err2 != nil {
 		return err2
 	}
