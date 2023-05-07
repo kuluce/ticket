@@ -17,7 +17,7 @@ func Start() {
 	if err := config.Read(); err != nil {
 		fmt.Printf("无法读取配置文件，err:%v", err)
 		if !file.IsExist(config.ConfigFileName) {
-			fmt.Printf("配置文件不存在，重新初始化配置文件,请确认配置文件后重新运行")
+			fmt.Printf("配置文件不存在，重新初始化配置文件,请确认配置文件内容后重新运行")
 			_ = config.New()
 			_ = config.Save()
 			os.Exit(1)
