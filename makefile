@@ -1,7 +1,7 @@
 
 BINARY_HOME =target
 OS_NAME =$(shell go env GOHOSTOS)
-CC=gcc
+
 
 all: build_ticket
 
