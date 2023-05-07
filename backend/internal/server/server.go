@@ -2,8 +2,8 @@ package server
 
 import (
 	"fmt"
-	"oneTicket/backend/internal/config"
 	"os"
+	"ticket/backend/internal/config"
 
 	"github.com/toolkits/file"
 	"github.com/toolkits/logger"

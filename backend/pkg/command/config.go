@@ -2,7 +2,7 @@ package command
 
 import (
 	"fmt"
-	"oneTicket/backend/internal/config"
+	"ticket/backend/internal/config"
 
 	"github.com/spf13/cobra"
 )

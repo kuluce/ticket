@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"oneTicket/backend/pkg/command"
+	"ticket/backend/pkg/command"
 
 	"github.com/toolkits/pkg/logger"
 )

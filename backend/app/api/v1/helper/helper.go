@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 	"net/http"
-	"oneTicket/backend/app/buserr"
-	"oneTicket/backend/app/dto"
-	"oneTicket/backend/constant"
-	"oneTicket/backend/i18n"
-	"oneTicket/backend/internal/global"
 	"strconv"
+	"ticket/backend/app/buserr"
+	"ticket/backend/app/dto"
+	"ticket/backend/constant"
+	"ticket/backend/i18n"
+	"ticket/backend/internal/global"
 
 	"github.com/gin-gonic/gin"
 

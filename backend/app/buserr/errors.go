@@ -1,7 +1,7 @@
 package buserr
 
 import (
-	"oneTicket/backend/i18n"
+	"ticket/backend/i18n"
 
 	"github.com/pkg/errors"
 )

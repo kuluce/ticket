@@ -1,7 +1,7 @@
 package command
 
 import (
-	"oneTicket/backend/internal/server"
+	"ticket/backend/internal/server"
 
 	"github.com/spf13/cobra"
 )
